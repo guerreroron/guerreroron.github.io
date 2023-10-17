@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;  
+    /* outline: 1px dotted blue; */
+}
+
+nav {
+    background-image: linear-gradient(rgb(27, 27, 83), rgb(47, 47, 97));
+    height: 2.5rem;
+}
+
+.fondo-card-up {
+    height: 5rem;
+    background-image: linear-gradient(rgb(47, 47, 97), rgb(87, 87, 160));
+}
+
+.cont-detail {
+    min-width: 350px;
+}
+
+.img-card {
+    width: 85%;
+}
+
+.r50 {
+    height: 50%;
+    background-image: linear-gradient(rgb(87, 87, 160), rgb(126, 126, 165));
+}
+
+span {
+    color: rgb(87, 87, 160);
+}
+
+.bordertop {
+    border-top: 2px solid rgb(133, 129, 129);
+}
+
+.borderstart {
+    border-left: 2px solid rgb(133, 129, 129);
+}
+
+.borderend {
+    border-right: 2px solid rgb(133, 129, 129);
+}
+
+.bg-col {
+    background-color: #edf3f5;
+}
+
+.bg-icon {
+    background-color: rgb(228, 109, 50);
+    border-bottom: 2px solid rgb(133, 129, 129);
+    border-right: 2px solid rgb(133, 129, 129);
+    border-left:  2px solid rgb(133, 129, 129);
+}
+
+.bd-card {
+    border-bottom: 2px solid rgb(133, 129, 129);
+    border-right: 2px solid rgb(133, 129, 129);
+    border-left:  2px solid rgb(133, 129, 129);
+}
+
+.resumen {
+    text-align: justify;
+}
+
+.img-exp {
+    width: 100%;
+}
+
+.fondo-card {
+    height: 30px;
+}
+
+.bg-foot {
+    background-image: linear-gradient(90deg, rgb(27,27,83), rgb(87,87,160), rgb(27,27,83));
+}
+
+.img-port85 {
+    width: 85%;
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 480px){
+    .cont-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 481px){
+    .cont-img {
+        display: none;
+    } 
+}
+
+@media only screen and (min-width: 1024px){
+    /* .cont-img {
+        display: none;
+    } */
+}
