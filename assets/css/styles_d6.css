@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +8,7 @@
 
 nav {
     background-image: linear-gradient(rgb(27, 27, 83), rgb(47, 47, 97));
-    height: 2.5rem;
+    height: 2rem;
 }
 
 .fondo-card-up {
@@ -50,7 +50,7 @@ span {
 }
 
 .bg-icon {
-    background-color: rgb(228, 109, 50);
+    background-color: rgb(50, 86, 205);
     border-bottom: 2px solid rgb(133, 129, 129);
     border-right: 2px solid rgb(133, 129, 129);
     border-left:  2px solid rgb(133, 129, 129);
