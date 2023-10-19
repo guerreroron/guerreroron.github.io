@@ -25,7 +25,7 @@ nav {
 }
 
 .r50 {
-    height: 50%;
+    height: 247px;
     background-image: linear-gradient(rgb(87, 87, 160), rgb(126, 126, 165));
 }
 
@@ -50,7 +50,7 @@ span {
 }
 
 .bg-icon {
-    background-color: rgb(50, 86, 205);
+    background-color: rgb(228, 109, 50);
     border-bottom: 2px solid rgb(133, 129, 129);
     border-right: 2px solid rgb(133, 129, 129);
     border-left:  2px solid rgb(133, 129, 129);
@@ -74,12 +74,17 @@ span {
     height: 30px;
 }
 
+footer p {
+    color: rgb(145, 145, 145);
+}
+
 .bg-foot {
     background-image: linear-gradient(90deg, rgb(27,27,83), rgb(87,87,160), rgb(27,27,83));
 }
 
 .img-port85 {
     width: 85%;
+    cursor: pointer;
 }
 
 
